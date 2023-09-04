@@ -8,7 +8,7 @@
 .box-minimal .box-minimal-icon {
     font-size: 50px;
     line-height: 50px;
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .box-minimal-divider {
@@ -16,7 +16,7 @@
     height: 4px;
     margin-left: auto;
     margin-right: auto;
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .box-minimal-text {
@@ -92,7 +92,7 @@
     display: inline-block;
     width: 80px;
     height: 2px;
-    background: #41A451;
+    background: #87aeb4;
 }
 
 * + .box-counter-title {
@@ -177,7 +177,7 @@
 }
 
 .box-icon-inner.decorate-triangle.decorate-color-primary:before {
-    border-color: transparent transparent #41A451 transparent;
+    border-color: transparent transparent #87aeb4 transparent;
 }
 
 .box-icon-inner.decorate-circle:before {
@@ -195,7 +195,7 @@
 }
 
 .box-icon-inner.decorate-circle.decorate-color-primary:before {
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .box-icon-inner.decorate-rectangle:before {
@@ -208,14 +208,14 @@
 }
 
 .box-icon-inner.decorate-rectangle.decorate-color-primary:before {
-    background: #41A451;
+    background: #87aeb4;
 }
 .box-icon-inner a{
     color:#000;
 }
 
 .box-icon-inner a:focus, .box-icon-inner a:active, .box-icon-inner a:hover{
-    color:#41A451;
+    color:#87aeb4;
 }
 .box-icon-caption h4 {
     font-weight: 500;

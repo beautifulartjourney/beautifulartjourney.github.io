@@ -30,7 +30,7 @@
 }
 
 .post-corporate.post-corporate-img-bg .team-classic-caption h4 a:hover, .section-main-bunner .team-classic-caption h4 a:hover, .context-dark .team-classic-caption h4 a:hover, .bg-gray-600 .team-classic-caption h4 a:hover, .bg-gray-700 .team-classic-caption h4 a:hover, .bg-gray-800 .team-classic-caption h4 a:hover, .bg-primary .team-classic-caption h4 a:hover, .bg-pink .team-classic-caption h4 a:hover, .bg-secondary .team-classic-caption h4 a:hover, .bg-secondary-2 .team-classic-caption h4 a:hover, .bg-green .team-classic-caption h4 a:hover, .box-countdown-dark .team-classic-caption h4 a:hover, .post-corporate.post-corporate-img-bg .team-modern-caption h4 a:hover, .section-main-bunner .team-modern-caption h4 a:hover, .context-dark .team-modern-caption h4 a:hover, .bg-gray-600 .team-modern-caption h4 a:hover, .bg-gray-700 .team-modern-caption h4 a:hover, .bg-gray-800 .team-modern-caption h4 a:hover, .bg-primary .team-modern-caption h4 a:hover, .bg-pink .team-modern-caption h4 a:hover, .bg-secondary .team-modern-caption h4 a:hover, .bg-secondary-2 .team-modern-caption h4 a:hover, .bg-green .team-modern-caption h4 a:hover, .box-countdown-dark .team-modern-caption h4 a:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .post-corporate.post-corporate-img-bg .countdown-gradient .countdown-period, .section-main-bunner .countdown-gradient .countdown-period, .context-dark .countdown-gradient .countdown-period, .bg-gray-600 .countdown-gradient .countdown-period, .bg-gray-700 .countdown-gradient .countdown-period, .bg-gray-800 .countdown-gradient .countdown-period, .bg-primary .countdown-gradient .countdown-period, .bg-pink .countdown-gradient .countdown-period, .bg-secondary .countdown-gradient .countdown-period, .bg-secondary-2 .countdown-gradient .countdown-period, .bg-green .countdown-gradient .countdown-period, .box-countdown-dark .countdown-gradient .countdown-period {
@@ -177,7 +177,7 @@
 * Accent Backgrounds
 */
 .bg-primary {
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .bg-primary + .bg-primary {
@@ -311,5 +311,5 @@
 }
 
 .page {
-    background: #cac4b8;
+    /*background: #cac4b8;*/
 }

@@ -19,7 +19,7 @@
 }
 
 .block-center:hover .block-center-header {
-    background-color: #41A451;
+    background-color: #87aeb4;
 }
 
 .block-center-title {
@@ -34,7 +34,7 @@
         background-color: #ffffff;
     }
     .block-center-header {
-        background-color: #41A451;
+        background-color: #87aeb4;
     }
 }
 
@@ -104,7 +104,7 @@
 }
 
 .block-decorate-img.block-decorate-img-modern .block-decorate-inner .block-video-button a .icon {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .block-decorate-img.block-decorate-img-modern img {

@@ -15,7 +15,7 @@
 
 .badge:hover {
     color: #ffffff;
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .badge:focus, .badge:active {
@@ -23,7 +23,7 @@
 }
 
 .badge.badge-primary {
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .badge.badge-primary:hover {
@@ -135,7 +135,7 @@ ul.blog-post-meta li .icon {
 }
 
 .blog-post-share .icon:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .post-classic {
@@ -202,7 +202,7 @@ ul.blog-post-meta li .icon {
 }
 
 .post-classic-tag {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .post-classic-tag:hover {
@@ -214,7 +214,7 @@ ul.blog-post-meta li .icon {
 }
 
 .post-classic-tag.post-classic-tag-secondary:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .post-classic-tag.post-classic-tag-secondary-2 {

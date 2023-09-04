@@ -7,11 +7,11 @@ a, a:focus, a:active, a:hover {
 }
 
 a, a:focus, a:active {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 a:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 a[href*='tel'], a[href*='mailto'] {
@@ -19,7 +19,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .link-hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .link-active {
@@ -40,6 +40,6 @@ a[href*='tel'], a[href*='mailto'] {
 
 .brand-logo-title{
     font-size: 30px;
-    color: black;
+    color: white;
     font-family: Britannic Bold;
 }

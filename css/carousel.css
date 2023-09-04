@@ -196,7 +196,7 @@
 
 .owl-prev:hover,
 .owl-next:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .owl-prev {
@@ -262,8 +262,8 @@
 }
 
 .owl-dot:hover, .owl-dot.active {
-    border-color: #41A451;
-    background-color: #41A451;
+    border-color: #87aeb4;
+    background-color: #87aeb4;
 }
 
 .owl-carousel.owl-carousel-light-dots .owl-dot {

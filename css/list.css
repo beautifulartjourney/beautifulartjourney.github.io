@@ -230,7 +230,7 @@ ul.social-list > * {
 
 ul.social-list a:hover {
     color: #ffffff;
-    background: #41A451;
+    background: #AF9666;
 }
 
 @media (min-width: 768px) {
@@ -257,7 +257,7 @@ ul.social-list a:hover {
 .category-list li:before {
     position: absolute;
     left: 0;
-    color: #41A451;
+    color: #87aeb4;
     content: '\f14f';
     font-family: 'Material Design Icons';
     line-height: 27px;

@@ -29,7 +29,7 @@ input:-webkit-autofill ~ .form-validation {
 }
 
 .form-wrap.has-focus .form-input {
-    border-color: #41A451;
+    border-color: #87aeb4;
 }
 
 .form-wrap + * {
@@ -320,7 +320,7 @@ textarea.form-input {
 }
 
 .toggle-custom:checked ~ .checkbox-custom-dummy::after {
-    background: #41A451;
+    background: #87aeb4;
     transform: translate(20px, -50%);
 }
 

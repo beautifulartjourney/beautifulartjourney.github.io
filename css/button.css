@@ -36,12 +36,12 @@
 
 .button-default:hover, .button-default:active {
     color: #ffffff;
-    background-color: #41A451;
-    border-color: #41A451;
+    background-color: #87aeb4;
+    border-color: #87aeb4;
 }
 
 .button-default.button-ujarak::before {
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .button-gray-100, .button-gray-100:focus {
@@ -68,12 +68,12 @@
 
 .button-gray-600:hover, .button-gray-600:active {
     color: #ffffff;
-    background-color: #41A451;
-    border-color: #41A451;
+    background-color: #87aeb4;
+    border-color: #87aeb4;
 }
 
 .button-gray-600.button-ujarak::before {
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .button-gray-2, .button-gray-2:focus {
@@ -84,18 +84,18 @@
 
 .button-gray-2:hover, .button-gray-2:active {
     color: #ffffff;
-    background-color: #41A451;
-    border-color: #41A451;
+    background-color: #87aeb4;
+    border-color: #87aeb4;
 }
 
 .button-gray-2.button-ujarak::before {
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .button-primary, .button-primary:focus {
     color: #ffffff;
-    background-color: #41A451;
-    border-color: #41A451;
+    background-color: #87aeb4;
+    border-color: #87aeb4;
 }
 
 .button-primary:hover, .button-primary:active {
@@ -148,12 +148,12 @@
 
 .button-default-outline:hover, .button-default-outline:active {
     color: #ffffff;
-    background-color: #41A451;
-    border-color: #41A451;
+    background-color: #87aeb4;
+    border-color: #87aeb4;
 }
 
 .button-default-outline.button-ujarak::before {
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .button-white-outline, .button-white-outline:focus {
@@ -164,12 +164,12 @@
 
 .button-white-outline:hover, .button-white-outline:active {
     color: #ffffff;
-    background-color: #41A451;
-    border-color: #41A451;
+    background-color: #87aeb4;
+    border-color: #87aeb4;
 }
 
 .button-white-outline.button-ujarak::before {
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .button-gradient {
@@ -191,12 +191,12 @@
 }
 
 .button-gradient:before {
-    background: linear-gradient(228.54deg, #41A451 30.16%, #5656DF 89.45%);
+    background: linear-gradient(228.54deg, #87aeb4 30.16%, #5656DF 89.45%);
 }
 
 .button-gradient:after {
     opacity: 0;
-    background: linear-gradient(-228.54deg, #41A451 30.16%, #5656DF 89.45%);
+    background: linear-gradient(-228.54deg, #87aeb4 30.16%, #5656DF 89.45%);
 }
 
 .button-gradient:hover {
@@ -304,7 +304,7 @@
 
 .button-ghost:hover {
     color: #ffffff;
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .button-facebook, .button-facebook:focus {
@@ -380,7 +380,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #41A451;
+    background: #87aeb4;
     z-index: -1;
     opacity: 0;
     transform: scale3d(0.7, 1, 1);
@@ -499,8 +499,8 @@
 
 .btn-primary, .btn-primary:active, .btn-primary:focus {
     color: #ffffff;
-    background: #41A451;
-    border-color: #41A451;
+    background: #87aeb4;
+    border-color: #87aeb4;
 }
 
 .btn-primary:hover {

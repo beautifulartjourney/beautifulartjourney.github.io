@@ -151,7 +151,7 @@
 
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 @media (min-width: 992px) {
@@ -391,7 +391,7 @@
 }
 
 .swiper-slider-1 .swiper-slide-caption .swiper-video-block a:hover .icon {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .swiper-slider-1 .swiper-slide-caption .swiper-video-block a:hover .heading-4 {

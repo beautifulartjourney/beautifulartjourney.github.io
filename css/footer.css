@@ -48,7 +48,7 @@
 }
 
 .footer-classic .list-contact-info a:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .footer-classic .icon-bg-white {
@@ -110,7 +110,7 @@
 }
 
 .footer-modern p.big a:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 .footer-modern p.rights {
@@ -173,7 +173,8 @@
     padding: 60px 0;
     text-align: center;
     /*background: #323232;*/
-    background: #e0dfdb;
+    background: #695245;
+            /*background#e0dfdb;*/
 }
 
 .footer-minimal .icon-bg-white {
@@ -201,11 +202,11 @@
 }
 
 .footer-minimal .rights {
-    color: black;
+    color: white;
 }
 
 .footer-minimal .rights a {
-    color: black;
+    color: white;
 }
 
 .footer-minimal .social-list li {
@@ -242,9 +243,9 @@
     text-transform: uppercase;
     letter-spacing: .02em;
     text-align: center;
-    color: black;
+    color: white
 }
 
 .footer-minimal-nav a:hover {
-    color: #41A451;
+    color: #AF9666;
 }

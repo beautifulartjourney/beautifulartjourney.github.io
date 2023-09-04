@@ -27,7 +27,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, [class^='heading-'] a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, [class^='heading-'] a:hover {
-    color: #41A451;
+    color: #87aeb4;
 }
 
 h1,
@@ -135,7 +135,7 @@ mark,
 .mark {
     padding: 3px 5px;
     color: #ffffff;
-    background: #41A451;
+    background: #87aeb4;
 }
 
 .big {
@@ -160,7 +160,7 @@ code {
 p [data-toggle='tooltip'] {
     padding-left: .25em;
     padding-right: .25em;
-    color: #41A451;
+    color: #87aeb4;
 }
 
 p [style*='max-width'] {
@@ -168,12 +168,12 @@ p [style*='max-width'] {
 }
 
 ::selection {
-    background: #41A451;
+    background: #87aeb4;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background: #41A451;
+    background: #87aeb4;
     color: #ffffff;
 }
 
@@ -196,7 +196,7 @@ p [style*='max-width'] {
     left: 0;
     width: 35px;
     height: 3px;
-    background: #41A451;
+    background: #87aeb4;
 }
 
 @media (min-width: 992px) {
@@ -258,7 +258,7 @@ p [style*='max-width'] {
 }
 
 .title-style-1 {
-    color: #41A451;
+    color: #87aeb4;
     text-transform: uppercase;
 }
 
