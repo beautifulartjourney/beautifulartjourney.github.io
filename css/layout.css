@@ -8178,6 +8178,10 @@ button.close {
     visibility: hidden!important
 }
 
+.newsletter-des {
+    margin-bottom: 28px;
+}
+
 @media print {
     *,*::before,*::after {
         text-shadow: none!important;
@@ -8263,3 +8267,4 @@ button.close {
         border-color: #dee2e6
     }
 }
+
