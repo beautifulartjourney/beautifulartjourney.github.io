@@ -8181,6 +8181,17 @@ button.close {
 .newsletter-des {
     margin-bottom: 28px;
 }
+.product-name a {
+    text-transform: capitalize;
+    color: #333;
+    font-size: 15px;
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: Roboto Slab, sans-serif;
+    text-align: center;
+}
 
 @media print {
     *,*::before,*::after {
