@@ -1782,11 +1782,11 @@ html.rd-navbar-fixed-linked .page {
 
 
 .rd-navbar-aside.rd-navbar-static .rd-navbar-panel  .active a{
-    color: #87aeb4;
+    color: #227b89/*#87aeb4*/;
     background: transparent;
 }
 .rd-navbar-aside.rd-navbar-static .rd-navbar-panel .nav-list a:hover {
-    color: #87aeb4;
+    color: #227b89;
 }
 
 .rd-navbar-aside.rd-navbar-static .rd-navbar-panel .header-soc-list li + li {
