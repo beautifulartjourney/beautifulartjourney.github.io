@@ -355,12 +355,7 @@
     font-family: "Bodoni Moda";
 }
 
-.post-info .entry-meta-small a {
-    color: #868686;
-}
-.post-info .entry-meta-small a:hover {
-    color: #87aeb4;
-}
+
 .post-info .entry-meta-small {
     font-size: 13px;
     line-height: 20px;
