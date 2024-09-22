@@ -16,17 +16,19 @@
     </script>
     <title>Lucy Lu Art | Watercolor Painting</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
-    <link rel="icon" href="https://beautifulartjourney.com/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css"
-          href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CPT+Serif:400,700">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta content="width=device-width, height=device-height, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content='no-cache' http-equiv='cache-control'>
+    <meta content='0' http-equiv='expires'>
+    <meta content='no-cache' http-equiv='pragma'>
+    <link href="https://beautifulartjourney.com/images/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CPT+Serif:400,700" rel="stylesheet"
+          type="text/css">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="./css/slick/slick.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/slick/slick-theme.css" rel="stylesheet" type="text/css"/>
     <style>.ie-panel {
         display: none;
         background: #212121;
@@ -40,7 +42,80 @@
 
     html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {
         display: block;
-    }</style>
+    }
+    </style>
+
+    <style>
+        .content {
+          margin: auto;
+          padding: 20px;
+          width: 80%;
+        }
+        .blue {
+          background: #3498db;
+          color: #fff;
+        }
+        .blue h3 {
+          background: #fff;
+          color: #3498db;
+          font-size: 36px;
+          line-height: 100px;
+          margin: 10px;
+          padding: 2%;
+          position: relative;
+          text-align: center;
+        }
+        .slick-slider {
+          margin: 30px auto 50px;
+        }
+        .slick-slide .image {
+          padding: 15px;
+          margin: 0 10px;
+        }
+        .slick-slide img {
+          border: 5px solid #fff;
+          display: block;
+          width: 100%;
+        }
+        .slick-slide img.slick-loading {
+          border: 0;
+        }
+        .slick-prev {
+          left: -35px;
+        }
+        .slick-prev:before,
+        .slick-next:before {
+          font-size: 40px;
+        }
+        .image {
+          background: white;
+          border: 6px solid #000;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .image img {
+          margin: 0 auto;
+          height: auto;
+          border: 0;
+          vertical-align: middle;
+        }
+        .image-block {
+          overflow: hidden;
+          position: relative;
+          transition: all 0.3s ease;
+          vertical-align: top;
+          display: inline-block;
+          background-color: #fff;
+        }
+       .product-detail-wrapper {
+          text-align: center;
+          padding: 20px 0 0;
+        }
+       .price-amount {
+          color: #000;
+          font-weight: 600;
+       }
+
+    </style>
 
 </head>
 <body>
@@ -57,12 +132,12 @@
     <header class="section page-header">
         <!-- RD Navbar-->
         <div class="rd-navbar-wrap">
-            <nav class="rd-navbar rd-navbar-aside" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
-                 data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed"
-                 data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static"
-                 data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static"
-                 data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px"
-                 data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <nav class="rd-navbar rd-navbar-aside" data-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static"
+                 data-lg-layout="rd-navbar-static" data-lg-stick-up="true"
+                 data-lg-stick-up-offset="46px" data-md-device-layout="rd-navbar-fixed"
+                 data-md-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+                 data-xl-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-stick-up="true"
+                 data-xl-stick-up-offset="46px" data-xxl-stick-up="true" data-xxl-stick-up-offset="46px">
                 <div class="rd-navbar-main-outer">
                     <div class="rd-navbar-main">
                         <!-- RD Navbar Panel-->
@@ -71,8 +146,8 @@
                             <!--<button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>-->
                             <!-- RD Navbar Brand-->
                             <div class="rd-navbar-brand">
-                                <a href="index.html"><img class="brand-logo-light" src="images/logo-channel2.png" alt=""
-                                                          width="114" height="57" srcset="images/logo-channel2.png 2x"/></a>
+                                <a href="index.html"><img alt="" class="brand-logo-light" height="57"
+                                                          src="images/logo-channel2.png" srcset="images/logo-channel2.png 2x" width="114"/></a>
                                 <h1 class="brand-title">Lucy Lu</h1>
                             </div>
 
@@ -123,74 +198,12 @@
     <!-- 2. Intro -->
     <section class="section section-lg bg-default">
         <div class="container">
-
-            <div class="row row-20 row-lg-30">
-                <div class="col-md-6 col-lg-4 wow-outer">
-                    <div class="wow fadeInUp">
-                        <div class="product-featured">
-                            <div class="product-featured-figure icon-box">
-                                <i class="icon-present" style="color:#af9666; font-size:60px; "></i>
-                            </div>
-                            <div class="product-featured-caption">
-                                <div class="content">
-                                    <h3>Start with Interest</h3>
-                                    <div class="des">Discover inspiration from my posts that spark your creative
-                                        ideas.
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow-outer">
-                    <div class="wow fadeInUp">
-                        <div class="product-featured">
-                            <div class="product-featured-figure icon-box">
-                                <i class="icon-star" style="color:#af9666; font-size:60px; "></i>
-                            </div>
-                            <div class="product-featured-caption">
-                                <div class="content">
-                                    <h3>Watch and Experiment</h3>
-                                    <div class="des">Tune in to my YouTube channel for educational content, including
-                                        beginner-level and how-to tutorials.
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow-outer">
-                    <div class="wow fadeInUp">
-                        <div class="product-featured">
-                            <div class="product-featured-figure icon-box">
-                                <i class="icon-lock" style="color:#af9666; font-size:60px; "></i>
-                            </div>
-                            <div class="product-featured-caption">
-                                <div class="content">
-                                    <h3>Finish a project</h3>
-                                    <div class="des">Gain entry to my step-by-step tutorials, where we'll create a
-                                        complete artwork from start to finish together.
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- 3. About me-->
-    <section class="section section-lg section-bg  section-top-bg">
-        <div class="container">
             <div class="row row-20 row-lg-30">
                 <div class="col-md-6 col-lg-6 wow-outer">
-                    <img width="606" height="342"
+                    <img class="vc_single_image-img attachment-full" height="342"
                          src="images/home/art-journey-thumnail.jpg"
-                         class="vc_single_image-img attachment-full"
                          title="countdown-img"
+                         width="606"
                     />
                 </div>
                 <div class="col-md-6 col-lg-6 wow-outer">
@@ -208,6 +221,198 @@
                 </div>
             </div>
         </div>
+<!--        <div class="container">-->
+
+<!--            <div class="row row-20 row-lg-30">-->
+<!--                <div class="col-md-6 col-lg-4 wow-outer">-->
+<!--                    <div class="wow fadeInUp">-->
+<!--                        <div class="product-featured">-->
+<!--                            <div class="product-featured-figure icon-box">-->
+<!--                                <i class="icon-present" style="color:#af9666; font-size:60px; "></i>-->
+<!--                            </div>-->
+<!--                            <div class="product-featured-caption">-->
+<!--                                <div class="content">-->
+<!--                                    <h3>Start with Interest</h3>-->
+<!--                                    <div class="des">Discover inspiration from my posts that spark your creative-->
+<!--                                        ideas.-->
+<!--                                    </div>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-6 col-lg-4 wow-outer">-->
+<!--                    <div class="wow fadeInUp">-->
+<!--                        <div class="product-featured">-->
+<!--                            <div class="product-featured-figure icon-box">-->
+<!--                                <i class="icon-star" style="color:#af9666; font-size:60px; "></i>-->
+<!--                            </div>-->
+<!--                            <div class="product-featured-caption">-->
+<!--                                <div class="content">-->
+<!--                                    <h3>Watch and Experiment</h3>-->
+<!--                                    <div class="des">Tune in to my YouTube channel for educational content, including-->
+<!--                                        beginner-level and how-to tutorials.-->
+<!--                                    </div>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-md-6 col-lg-4 wow-outer">-->
+<!--                    <div class="wow fadeInUp">-->
+<!--                        <div class="product-featured">-->
+<!--                            <div class="product-featured-figure icon-box">-->
+<!--                                <i class="icon-lock" style="color:#af9666; font-size:60px; "></i>-->
+<!--                            </div>-->
+<!--                            <div class="product-featured-caption">-->
+<!--                                <div class="content">-->
+<!--                                    <h3>Finish a project</h3>-->
+<!--                                    <div class="des">Gain entry to my step-by-step tutorials, where we'll create a-->
+<!--                                        complete artwork from start to finish together.-->
+<!--                                    </div>-->
+
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+
+    </section>
+    <!-- 3. About me-->
+    <section class="section section-lg section-bg  section-top-bg">
+        <!-- product section -->
+        <div class="container">
+            <div class="slider lazy">
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Goldfish-1.jpg"/>
+                        </div>
+                    </div>
+<!--                    <div class="product-detail-wrapper">-->
+<!--                        <span class="price">-->
+<!--                            <ins>-->
+<!--                             <span class="price-amount amount"><bdi>-->
+<!--                                 <span class="Price-currencySymbol">&#36;</span>34.00</bdi></span>-->
+<!--                            </ins>-->
+<!--                        </span>-->
+<!--                    </div>-->
+                </div>
+
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Peony-4.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Koi-fish-1.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Goldfish-3.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Goldfish-2.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Peony-1.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Peony-2.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Peony-3.jpg"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Rose.jpg"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Koi-fish-2.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+                            <img data-lazy="./images/products/Koi-fish-3.jpg"/>
+                        </div>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Serene-Shadows.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Serenity.jpg"/>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="image">
+                        <div class="image-block">
+
+                            <img data-lazy="./images/products/Water-lily.jpg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
     <!-- 4. Latest video-->
 
@@ -217,7 +422,7 @@
             <div class="col-md-9 col-lg-7 wow-outer">
                 <div class="wow slideInDown">
                     <h2>Subscribe</h2>
-                    <h3 style="text-align: center" class="heading-title">Let's Be Friends</h3>
+                    <h3 class="heading-title" style="text-align: center">Let's Be Friends</h3>
                     <p class="newsletter-des">Subscribe on Youtube for new videos every week!</p>
                 </div>
             </div>
@@ -227,18 +432,18 @@
             <div class="row row-20 row-lg-30">
                 <div class="col-md-6 col-lg-6 wow-outer">
                     <div>
-                        <iframe width="560" height="315"
-                                src="https://www.youtube.com/embed/ErgTW0qIYho?si=suV7INunVQeUF6hw"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen></iframe>
+                        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                                frameborder="0"
+                                height="315" src="https://www.youtube.com/embed/ErgTW0qIYho?si=suV7INunVQeUF6hw"
+                                title="YouTube video player"
+                                width="560"></iframe>
 
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 wow-outer">
                     <div class="subscribe-container">
-                        <img width="420" height="315" src="images/home/name-tag.jpg"
-                             class="vc_single_image-img attachment-full"/>
+                        <img class="vc_single_image-img attachment-full" height="315" src="images/home/name-tag.jpg"
+                             width="420"/>
                     </div>
                 </div>
             </div>
@@ -251,7 +456,7 @@
                 <div class="col-md-9 col-lg-7 wow-outer">
                     <div class="wow slideInDown">
                         <h2>View now</h2>
-                        <h3 style="text-align: center" class="heading-title">New series</h3>
+                        <h3 class="heading-title" style="text-align: center">New series</h3>
                     </div>
                 </div>
             </div>
@@ -260,9 +465,9 @@
                     <div class="wow fadeInUp">
                         <div class="product-featured">
                             <div class="product-featured-figure">
-                                <a href="https://youtu.be/AT941xO0NU0" target="_blank"><img src="images/prints/4.jpg"
-                                                                                            alt="" width="600"
-                                                                                            height="400"/></a>
+                                <a href="https://youtu.be/AT941xO0NU0" target="_blank"><img alt=""
+                                                                                            height="400" src="images/prints/4.jpg"
+                                                                                            width="600"/></a>
 
                             </div>
                             <div class="post-info">
@@ -279,9 +484,9 @@
                     <div class="wow fadeInUp">
                         <div class="product-featured">
                             <div class="product-featured-figure">
-                                <a href="https://youtu.be/NJgQxROAzxg" target="_blank"><img src="images/prints/5.jpg"
-                                                                                            alt="" width="600"
-                                                                                            height="400"/></a>
+                                <a href="https://youtu.be/NJgQxROAzxg" target="_blank"><img alt=""
+                                                                                            height="400" src="images/prints/5.jpg"
+                                                                                            width="600"/></a>
 
                             </div>
                             <div class="post-info">
@@ -298,9 +503,9 @@
                     <div class="wow fadeInUp">
                         <div class="product-featured">
                             <div class="product-featured-figure">
-                                <a href="https://youtu.be/dJd_X23ttNk" target="_blank"><img src="images/prints/6.jpg"
-                                                                                            alt="" width="600"
-                                                                                            height="400"/></a>
+                                <a href="https://youtu.be/dJd_X23ttNk" target="_blank"><img alt=""
+                                                                                            height="400" src="images/prints/6.jpg"
+                                                                                            width="600"/></a>
 
                             </div>
                             <div class="post-info">
@@ -349,5 +554,18 @@
 </div>
 <script src="js/lib/core.min.js"></script>
 <script src="js/lib/script.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha512-iJ1SAH2WFRlq6+tSHM2/y3xJiqcSoJeZ4F5c0u0VAON7+azC3IwfHkDORU3RmIv1xB/w7IBiaiRx8FJEk/fLmw=="
+        referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.0/jquery-migrate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
+<script>
+    $('.lazy').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 3,
+  slidesToScroll: 1
+});
+</script>
 </body>
 </html>
