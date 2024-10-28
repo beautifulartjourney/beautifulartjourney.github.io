@@ -267,9 +267,19 @@
     color: #333333;
 }
 
+.container .caption {
+    line-height: 1;
+    margin-top: 20px;
+    font-family: Roboto Slab, sans-serif;
+    font-weight: 300;
+    color: #333333;
+
+}
+
 .container .description {
-    color: #868686;
+    color: #5a5a5a;
     font-family:"Bodoni Moda";
+    font-size: 18px;
 }
 
 .container .button {
